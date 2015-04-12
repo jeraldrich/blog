@@ -15,4 +15,5 @@ Contents:
    contact
    django_filefield_csv_validation
    nonblocking_forloop_javascript
+   useful_sysadmin_commands
    vagrant_puppet_aws_rsync
