@@ -14,3 +14,5 @@ Contents:
    about_me
    contact
    django_filefield_csv_validation
+   nonblocking_forloop_javascript
+   vagrant_puppet_aws_rsync
