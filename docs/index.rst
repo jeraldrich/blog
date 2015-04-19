@@ -13,6 +13,7 @@ Contents:
 
    about_me
    contact
+   python_go_future
    django_filefield_csv_validation
    nonblocking_forloop_javascript
    useful_sysadmin_commands
