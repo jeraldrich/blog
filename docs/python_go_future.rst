@@ -17,11 +17,11 @@ Go can be used to replace existing Python projects which work just fine in 90% o
 
 There are no classes in Go. This might seem crazy for an enterprise ready language, but this is by language design choice, not language immaturity.
 
-Instead of classes in Go, you have interfaces and structs. Structs are collections of strongly declared types, which can also include interfaces, and interfaces are a collections of structs or methods
+Instead of classes in Go, you have interfaces and structs. Structs are collections of strongly declared types, which can also include interfaces. Interfaces are a collection of structs or methods.
 
 Go by design, encourages a composition pattern approach rather than an elegant class inheritance hierarchy. 
 
-Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of, such as a bike.
+Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of - such as a bike.
 
 This forces you to design methods and functionality so that your methods do one and one thing only.
 
@@ -35,7 +35,7 @@ Like a simple command, if your software library, method, or program just does 'o
 
 Go is a strongly type language. This means that variables in Go must be declared as to what type they are. In an interpretated dynamic language like Python, the type is assumed to be the type of the first value you assigned to it, so you do not repeat yourself, and can crank out a feature without to much plumbing.
 
-At first, it seems the extra step of strongly typing things is unnecessary and annoying, but eventually at a certain project scale, if you don't use strong typing, there’s probably going to be some code somewhere at a random place that checks type and casts it into something else or branches off if a conditional is met.
+At first, it seems the extra step of strongly typing things is unnecessary and annoying, but eventually at a certain project scale, if you don't use strong typing, there’s probably going to be some code somewhere at a random place that checks type and casts it into something else or branches off if a conditional is met. 
 
 Describing the structures that your method accepts as input and the type of result it will always return, forces you to think visually how all the individual structures of your program fit together like lego blocks with clearly defined edges and sizes that when used properly together, click and hold firmly in place. 
 
@@ -43,9 +43,9 @@ Think of python is the malleable, soft clay that you mold your idea with. You wo
 
 If it’s discovered that the tool needs to be more durable, then use Go to cast your soft figurine, into a granite statue that can withstand the test of time.
 
-Things like auto multi core threading on threads which are many times more memory proficient and performant than Python’s can be greatly beneficial at a certain scale. Near C like performance. Passing variables by pointers rather than by copying the values.
+Things like auto multi core threading on threads which are many times more memory proficient and performant than Python’s can be greatly beneficial at a certain scale. Near C like performance. Passing variables by pointers rather than by copying the values. These things add up exponentially when performance and scale matter.
 
-Being able to compile your program, and deploy it by simply copying the binary over and running it, is a huge relief compared to the virtual / system environment jungle of a sizable multi project dynamically interpreted application deploy.
+Being able to compile your program and deploy it by simply copying the binary over and running it, is a huge relief compared to the virtual / system environment jungle of a sizable multi project dynamically interpreted application deploy.
 
 While the languages themselves might be different, both follow a similar design philosophy of simplicity and practicality. The cross over between the two feels natural. The mental cost switching context between the two, cheap.
 
