@@ -43,7 +43,7 @@ Think of python is the malleable, soft clay that you mold your idea with. You wo
 
 If it’s discovered that the tool needs to be more durable, then use Go to cast your soft figurine, into a granite statue that can withstand the test of time.
 
-Things like auto multi core threading on threads which are many times more memory proficient and performant than Python’s can be greatly beneficial at a certain scale. Near C like performance. Passing variables by pointers rather than by copying the values. These things add up exponentially when performance and scale matter.
+Things like auto multi core distribution for threads which are many times more memory proficient and performant than Python threads, near C like performance, and passing variables by pointers rather than by copying the values, get exponentially more financially expensive when performance and scale matter.
 
 Being able to compile your program and deploy it by simply copying the binary over and running it, is a huge relief compared to the virtual / system environment jungle of a sizable multi project dynamically interpreted application deploy.
 
