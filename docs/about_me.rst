@@ -9,7 +9,7 @@ I’ve been developing software professionally for 12+ years. I'm lucky in that 
 
 I’m passionate about backend development, databases, systems and software architecture design because I love designing and implementing the underlying foundation that all other applications and developers depend on and are all improved by using.
 
-I've worked with successful startups implementing anything at any layer of the stack, and sometimes even mobile.
+I've worked with successful startups implementing anything at any layer of the stack, and sometimes even mobile (which I enjoyed a lot!).
 
 From the raging successes of https://libertydistribution.com and http://rewardstyle.com, to colossal financial failures like http://earth911.com
 
