@@ -25,7 +25,7 @@ Instead of thinking about all the different types of cars a vehicle can be, desi
 
 This forces you to design methods and functionality so that your methods do one and one thing only.
 
-Unix environments follow the philosophy of doing one thing only and one thing well. This allows the use of individual commands which do one thing, to be chained together with other commands through pipes "|" accepting each other's intputs and outputs until the final result is returned.
+Unix environments follow the philosophy of doing one thing only and one thing well. This allows the use of individual commands which do one thing, to be chained together with other commands through pipes "|" accepting each other's inputs and outputs until the final result is returned.
 
 The road of software project estimation and often meanders when over confidence on how easy you think a solution is, encounters something in which your original design did not anticipate. Maybe this special case can be accounted for easily, but other times, it may require a complete change in the underlying design.
 
