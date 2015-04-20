@@ -11,7 +11,7 @@ I’m passionate about backend development, databases, systems and software arch
 
 I've worked with successful startups implementing anything at any layer of the stack, and sometimes even mobile (which I enjoyed a lot!).
 
-From the raging successes of https://libertydistribution.com and http://rewardstyle.com, to colossal financial failures like http://api.earth911.com https://itunes.apple.com/us/app/irecycle/id312708176?mt=8
+From the raging successes of https://libertydistribution.com and http://rewardstyle.com, to colossal financial failures like https://itunes.apple.com/us/app/irecycle/id312708176?mt=8 (powered by an API I made at http://api.earth911.com)
 
 Building my first computer as a kid from scavanging 'working' parts from a dumpster behind a computer repair shop, to composing orchestral space music at https://soundcloud.com/milkysway/sets/adventures-in-hyperspace
 
