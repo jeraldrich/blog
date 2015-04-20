@@ -37,7 +37,7 @@ Go is a strongly type language. This means that variables in Go must be declared
 
 At first, it seems the extra step of strongly typing things is unnecessary and annoying, but eventually at a certain project scale, if you don't use strong typing, there’s probably going to be some code somewhere at a random place that checks type and casts it into something else or branches off if a conditional is met. 
 
-Describing the structures that your method accepts as input and the type of result it will always return, forces you to think visually how all the individual structures of your program fit together like lego blocks with clearly defined edges and sizes that when used properly together, click and hold firmly in place. 
+Describing the structures that your method accepts as input and the type of result it will always return, forces you to think visually how all the individual structures of your program fit together - like lego blocks with clearly defined edges and sizes that when used properly together, click and hold firmly in place. 
 
 Think of python as the malleable, soft clay that you mold your idea with. You work out the final form from adjustment after adjustment. Your business logic is defined. The edge cases found. You can then quickly see if your finished product will have outside approval and fullfill a proven need.
 
