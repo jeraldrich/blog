@@ -25,18 +25,18 @@ This has the advantage of remaining ‘non-blocking’ so that the user’s brow
     var items_added = 0;  
     function doLoop(i){  
         doDomStuff(items[i]);
-        if(i < items.length){
+        if (i < items.length) {
             setTimeout(function() { doLoop(i+1); }, 50); 
-        }else{
+        } else {
             items_added = 1;
         }
     };
     doLoop(0);
 
     // check if items_added loop is complete, if so, stop spinner
-    var clearMe = setInterval(function (){  
-        if(items_added == 1){
-            setTimeout(function(){ 
+    var clearMe = setInterval(function() {
+        if (items_added === 1) {
+            setTimeout(function() { 
                 var nospin_css = {
                     'background-image': 'none',
                     'background-repeat': 'no-repeat',
