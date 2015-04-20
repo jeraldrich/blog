@@ -19,7 +19,7 @@ There are no classes in Go. This might seem crazy for an enterprise ready langua
 
 Instead of classes in Go, you have interfaces and structs. Structs are collections of strongly declared types, which can also include interfaces. Interfaces are a collection of structs or a method doing one thing.
 
-Go by design, encourages a composition pattern approach to object oriented programming rather than an elegant class inheritance hierarchy. 
+Go by design, encourages a composition pattern approach to object oriented programming rather than an elegant, but but eventually complex, class inheritance hierarchy. 
 
 Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of - such as a bike. Instead of defining a base class with an engine and what your idea of 'vehicle' means, instead design 'vehicle' to mean a collection of individual parts assembled together that serve a specific purpose.
 
@@ -29,7 +29,7 @@ Unix environments follow the philosophy of doing one thing only and one thing we
 
 The road of software project estimation and often meanders when over confidence on how easy you think a solution is, encounters something in which your original design did not anticipate. Maybe this special case can be accounted for easily, but other times, it may require a complete change in the underlying design.
 
-Being able to rapidly discover what those edge cases are, and being able to modify your project to account for it, rather than having to refactor an initially elegant but often times overly-complex class hierarchy, allows you to focus on rapidly iterating and figure out ‘what works’ right now.
+Being able to rapidly discover what those edge cases are, and being able to modify your project to account for it, rather than having to refactor a complex class hierarchy, allows you to focus on rapidly iterating and figure out ‘what works’ right now.
 
 Like a simple command, if your software library, method, or program just does 'one thing and one thing well', it can easily be utilized without the implementor having to be aware of the underlying details.
 
