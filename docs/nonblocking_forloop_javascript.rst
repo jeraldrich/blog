@@ -23,7 +23,7 @@ This has the advantage of remaining ‘non-blocking’ so that the user’s brow
     // add elements in 'non-blocking' fashion,
     // by using setTimeout per dom manipulation.
     var items_added = 0;  
-    function doLoop(i){  
+    function doLoop(i) {  
         doDomStuff(items[i]);
         if (i < items.length) {
             setTimeout(function() { doLoop(i+1); }, 50); 
@@ -45,4 +45,7 @@ This has the advantage of remaining ‘non-blocking’ so that the user’s brow
             clearSpinnerInterval();
         };
     },100);
-    function clearSpinnerInterval(){ clearInterval(clearMe); }
+
+    function clearSpinnerInterval() {
+        clearInterval(clearMe);
+    }
