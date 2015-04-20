@@ -21,7 +21,7 @@ Instead of classes in Go, you have interfaces and structs. Structs are collectio
 
 Go by design, encourages a composition pattern approach to object oriented programming rather than an intially elegant, but often times eventually complex, class inheritance hierarchy. 
 
-Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of - such as a bike. Instead of defining a base class with an engine and what your idea of 'vehicle' means, instead design 'vehicle' to mean a collection of individual parts assembled together that serve a specific purpose.
+Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of - such as a bike. Instead of defining a base class with an engine and what your idea of 'vehicle' means, design 'vehicle' to mean a collection of individual parts assembled together that serve a specific purpose.
 
 This forces you to design methods and functionality so that your methods do one and one thing only.
 
