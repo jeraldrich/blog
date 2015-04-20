@@ -39,7 +39,7 @@ At first, it seems the extra step of strongly typing things is unnecessary and a
 
 Describing the structures that your method accepts as input and the type of result it will always return, forces you to think visually how all the individual structures of your program fit together - like lego blocks with clearly defined edges and sizes that when used properly together, click and hold firmly in place. 
 
-Think of python as the malleable, soft clay that you mold your idea with. You work out the final form from adjustment after adjustment. Your business logic is defined. The edge cases found. You can then quickly see if your finished product will have outside approval and fullfill a proven need.
+Think of python as the malleable, soft clay that you mold your idea with. You work out the final form from adjustment after adjustment. Your business logic is defined. The edge cases found. You can then quickly see if your finished product will have outside approval and fulfill a proven need.
 
 If it’s discovered that the tool needs to be more durable, then use Go to cast your soft figurine, into a granite statue that can withstand the test of time.
 
@@ -51,4 +51,4 @@ Being able to compile your program and deploy it by simply copying the binary ov
 
 While the languages themselves might be different, both follow a similar design philosophy of simplicity and practicality. The cross over between the two feels natural. The mental cost switching context between them, cheap.
 
-Knowing them both very well allows you to fullfill two very important and distinct stages of a product: Rapidly implement an idea to test the market adoption, and once the 10% edge cases crop up when certain scales are reached, implement the performance critical parts in Go where needed.
+Knowing them both very well allows you to fulfill two very important and distinct stages of a product: Rapidly implement an idea to test the market adoption, and once the 10% edge cases crop up when certain scales are reached, implement the performance critical parts in Go where needed.
