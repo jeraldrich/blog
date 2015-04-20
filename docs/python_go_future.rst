@@ -51,4 +51,4 @@ Being able to compile your program and deploy it by simply copying the binary ov
 
 While the languages themselves might be different, both follow a similar design philosophy of simplicity and practicality. The cross over between the two feels natural. The mental cost switching context between them, cheap.
 
-Knowing them both very well allows you to fullfill two very important and distinct stages of a product: Rapidly implement an idea to test the market adoption, and once the 10% edge cases crop up when certain scales are reached, implement the performance critical parts in Go when needed.
+Knowing them both very well allows you to fullfill two very important and distinct stages of a product: Rapidly implement an idea to test the market adoption, and once the 10% edge cases crop up when certain scales are reached, implement the performance critical parts in Go where needed.
