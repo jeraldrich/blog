@@ -43,7 +43,7 @@ Think of python is the malleable, soft clay that you mold your idea with. You wo
 
 If it’s discovered that the tool needs to be more durable, then use Go to cast your soft figurine, into a granite statue that can withstand the test of time.
 
-Things like auto multi core distribution for threads which are many times more memory efficient and performant than python threads, near C like performance, and passing variables by pointers rather than by copying the values, get exponentially more financially expensive when performance and scale matter.
+Things like auto multi core distribution for threads which are many times more memory efficient and performant than python threads, true concurrency, near C like performance, and passing variables by pointers rather than by copying the values, get exponentially more financially expensive when performance and scale matter.
 
 A real world example: http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html
 
