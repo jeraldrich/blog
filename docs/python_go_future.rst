@@ -19,7 +19,7 @@ There are no classes in Go. This might seem crazy for an enterprise ready langua
 
 Instead of classes in Go, you have interfaces and structs. Structs are collections of strongly declared types, which can also include interfaces. Interfaces are a collection of structs or a method doing one thing.
 
-Go by design, encourages a composition pattern approach to object oriented programming rather than an elegant, but but eventually complex, class inheritance hierarchy. 
+Go by design, encourages a composition pattern approach to object oriented programming rather than an elegant, but eventually complex, class inheritance hierarchy. 
 
 Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of - such as a bike. Instead of defining a base class with an engine and what your idea of 'vehicle' means, instead design 'vehicle' to mean a collection of individual parts assembled together that serve a specific purpose.
 
