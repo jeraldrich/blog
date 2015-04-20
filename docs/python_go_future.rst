@@ -7,7 +7,7 @@ Lost in this comparison is what you gain as a collaborative team by the efficien
 
 Restrictions like enforced whitespace as part of the code logic, and in most cases, only one way to do something, mean that most Python projects are easily understood and similarly constructed, regardless of who originally wrote it.
 
-Code is about understanding what the code says, how it fits into the bigger picture, and knowing the estimation and effect of each additionally feature or fix.
+Code is about understanding what the code says, how it fits into the bigger picture, and knowing the estimation and effect of each additional feature or fix.
 
 Python is almost like pseudocode.
 
@@ -19,7 +19,7 @@ There are no classes in Go. This might seem crazy for an enterprise ready langua
 
 Instead of classes in Go, you have interfaces and structs. Structs are collections of strongly declared types, which can also include interfaces. Interfaces are a collection of structs or methods.
 
-Go by design, encourages a composition pattern approach rather than an elegant class inheritance hierarchy. 
+Go by design, encourages a composition pattern approach to object oriented programming rather than an elegant class inheritance hierarchy. 
 
 Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of - such as a bike.
 
