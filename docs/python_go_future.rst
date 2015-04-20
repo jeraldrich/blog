@@ -33,7 +33,7 @@ Being able to rapidly discover what those edge cases are, and being able to modi
 
 Like a simple command, if your software library, method, or program just does 'one thing and one thing well', it can easily be utilized without the implementor having to be aware of the underlying details.
 
-Go is a strongly type language. This means that variables in Go must be declared as to what type they are. In an interpretated dynamic language like Python, the type is assumed to be the type of the first value you assigned to it, so you do not repeat yourself, and can crank out a feature without to much plumbing.
+Go is a strongly type language. This means that variables in Go must be declared as to what type they are. In an interpreted dynamic language like Python, the type is assumed to be the type of the first value you assigned to it, so you do not repeat yourself, and can crank out a feature without to much plumbing.
 
 At first, it seems the extra step of strongly typing things is unnecessary and annoying, but eventually at a certain project scale, if you don't use strong typing, there’s probably going to be some code somewhere at a random place that checks type and casts it into something else or branches off if a conditional is met. 
 
