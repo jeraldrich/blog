@@ -3,7 +3,7 @@ Why Python and Go is the Future
 
 When comparing languages, it’s easy to compare each one’s features and capabilities on paper.
 
-Lost in this comparison is what you gain as a collaborative team by the efficiency and maintainability of a language favoring simplicity over cleverness.
+Lost in this comparison is what you gain as a collaborative team by the efficiency and maintainability of a language favoring simplicity and practicality over cleverness and possibilities.
 
 Restrictions like enforced whitespace as part of the code logic, and in most cases, only one way to do something, mean that most Python projects are easily understood and similarly constructed, regardless of who originally wrote it.
 
