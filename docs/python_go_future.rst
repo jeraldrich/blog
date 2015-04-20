@@ -47,7 +47,7 @@ Things like auto multi core distribution for threads which are many times more m
 
 A real world example: http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html
 
-Being able to compile your program and deploy it by simply copying the binary over and running it, is a huge relief compared to the virtual / system environment jungle of a sizable multi project dynamically interpreted application deploy.
+Being able to compile your program and deploy it by simply copying the binary over and running it, is a huge relief compared to the virtual / system environment jungle of a sizable multi project dynamically interpreted application.
 
 While the languages themselves might be different, both follow a similar design philosophy of simplicity and practicality. The cross over between the two feels natural. The mental cost switching context between the two, cheap.
 
