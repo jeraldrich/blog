@@ -39,7 +39,7 @@ At first, it seems the extra step of strongly typing things is unnecessary and a
 
 Describing the structures that your method accepts as input and the type of result it will always return, forces you to think visually how all the individual structures of your program fit together like lego blocks with clearly defined edges and sizes that when used properly together, click and hold firmly in place. 
 
-Think of python as the malleable, soft clay that you mold your idea with. You work out the final form from adjustment after adjustment. Your business logic is defined. The edge cases found. You can then quickly see if your finished product will have outside approval and fullfill a need.
+Think of python as the malleable, soft clay that you mold your idea with. You work out the final form from adjustment after adjustment. Your business logic is defined. The edge cases found. You can then quickly see if your finished product will have outside approval and fullfill a proven need.
 
 If it’s discovered that the tool needs to be more durable, then use Go to cast your soft figurine, into a granite statue that can withstand the test of time.
 
