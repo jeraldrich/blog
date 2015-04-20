@@ -7,7 +7,7 @@ Lost in this comparison is what you gain as a collaborative team by the efficien
 
 Restrictions like enforced whitespace as part of the code logic, and in most cases, only one way to do something, mean that most Python projects are easily understood and similarly constructed, regardless of who originally wrote it.
 
-Code is about understanding what the code says, how it fits into the bigger picture, and knowing the estimation and effect of each additional feature or fix.
+Code is about understanding what the code says, how it's piece fits into the large puzzle, and knowing the estimation and effect of each addition or correction.
 
 Python is almost like pseudocode.
 
