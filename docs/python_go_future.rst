@@ -1,4 +1,4 @@
-Why python and go is the future
+Why Python and Go is the Future
 =======
 
 When comparing languages, it’s easy to compare each one’s features and capabilities on paper.
