@@ -17,7 +17,7 @@ Go can be used to replace existing Python projects which work just fine in 90% o
 
 There are no classes in Go. This might seem crazy for an enterprise ready language, but this is by language design choice, not language immaturity.
 
-Instead of classes in Go, you have interfaces and structs. Structs are collections of strongly declared types, which can also include interfaces. Interfaces are a collection of structs or methods.
+Instead of classes in Go, you have interfaces and structs. Structs are collections of strongly declared types, which can also include interfaces. Interfaces are a collection of structs or a method doing one thing.
 
 Go by design, encourages a composition pattern approach to object oriented programming rather than an elegant class inheritance hierarchy. 
 
