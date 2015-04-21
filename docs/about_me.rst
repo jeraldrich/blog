@@ -15,6 +15,6 @@ From the raging successes of https://libertydistribution.com and http://rewardst
 
 Building my first computer as a kid from scavanging 'working' parts from a dumpster behind a computer repair shop, to composing orchestral space music at https://soundcloud.com/milkysway/sets/adventures-in-hyperspace
 
-Making a go-kart out of a garden tiller motor and lawn mower wheels, to writing futuristic cowboy sci fi stories that will never be shown to anyone.
+Making a go-kart out of a garden tiller motor and lawn mower wheels, to writing futuristic cowboy sci fi stories that will never be shown to anyone (think Gattica meets Mad Max written by Louis L'Amour).
 
 I just like to make stuff.
