@@ -11,7 +11,7 @@ Code is about understanding what the code says, how it's piece fits into the lar
 
 Python is almost like pseudocode.
 
-Like english. It makes sense immediately. The characters and expressions used sometimes mathematical, but logic behind the meaning clear.
+Like english, it makes sense immediately. The characters and expressions used sometimes mathematical, but logic behind the meaning clear.
 
 Go can be used to replace existing Python projects which work just fine in 90% of cases, but you've grown to a scale in which the 10% becomes difficult to reliably service.
 
@@ -27,7 +27,7 @@ This forces you to design methods and functionality so that your methods do one 
 
 Unix environments follow the philosophy of doing one thing only and one thing well. This allows the use of individual commands which do one thing, to be chained together with other commands through pipes "|" accepting each other's inputs and outputs until the final result is returned.
 
-The road of software project estimation and often meanders when over confidence on how easy you think a solution is, encounters something in which your original design did not anticipate. Maybe this special case can be accounted for easily, but other times, it may require a complete change in the underlying design.
+The road of software project estimation often meanders when over confidence on how easy you think a solution is, encounters a road block in which your original design did not anticipate. Maybe this special case can be accounted for easily, but other times, it may require a complete change in the underlying design.
 
 Being able to rapidly discover what those edge cases are, and being able to modify your project to account for it, rather than having to refactor a complex class hierarchy, allows you to focus on rapidly iterating and figure out ‘what works’ right now.
 
