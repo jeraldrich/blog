@@ -23,6 +23,8 @@ Go by design, encourages a composition pattern approach to object oriented progr
 
 Instead of thinking about all the different types of cars a vehicle can be, design your vehicle so it can be easily used in ways you didn't think of - such as a bike. Instead of defining a base class with an engine and what your idea of 'vehicle' means, design 'vehicle' to mean a collection of individual parts assembled together that serve a specific purpose.
 
+Design 'engine' as a method to propel an object forward, rather than a combustable motor that works only in a specific type of vehicle.
+
 This forces you to design methods and functionality so that your methods do one and one thing only.
 
 Unix environments follow the philosophy of doing one thing only and one thing well. This allows the use of individual commands which do one thing, to be chained together with other commands through pipes "|" accepting each other's inputs and outputs until the final result is returned.
