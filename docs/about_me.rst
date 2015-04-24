@@ -4,18 +4,26 @@ http://linkedin.com/in/jeraldrich
 https://github.com/jeraldrich
 
 
-Generations ago, a thinker was sitting on an old mossy log, chin resting on palm, staring intently at the empty green grass a few feet ahead. Ideas drawn from a shallow pool of knowledge, filled with spoken word and dusty scrolls, steam into bellowing thought clouds building up with mental electricity. Rapid bolts of lightening arc randomly between ideas and flash possibilities. Mental gears analyze possibilities into logical structures. Visually rearranging logical structures until… 
+Generations ago, a thinker was sitting on an old mossy log, chin resting on palm, staring intently at the grassy ground few feet ahead. Ideas evaporate from a shallow pool of knowledge filled with spoken word and dusty scrolls.
 
-A goat’s panicked baah brings focus back to reality. A sudden wind rustling dried leaves wisps hazy conclusions away. The thinker let’s out a sigh, and stands up hoping only a five minutes were lost in thought rather than thirty so a scolding for daydreaming again can be avoided.
+Focused steam bellowing into thought clouds charged with mental energy. Rapid bolts of lightening arc randomly between ideas and flash possibilities. Mental gears refine fuzzy details into logical structures. Visually constructing and rearranging each piece until the best fit is found, and conclusion pictured. 
+
+A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and pats the goat on the head. Thoughts about how to make wool softer start drifting up... 
 
 
-Today, alone in a quiet dark room crouched over a glowing screen, an all knowing, artificially intelligent oracle instantly answers any question. The kindling of curiosity fuels the intensity of focused imagination as rhythmic clicks and clacks spark calculated keystrokes forming the thinker’s visually constructed mental images, into bold monotype words and symbols.
+Today, alone in a quiet dark room crouched over a glowing screen, an all knowing, artificially intelligent oracle instantly answers any question.
 
-With bloodshot eyes and a deep exhale, the last thoughtful detail is saved, and shoulders relax. The final logical blueprint etched forever as simple 0’s and 1’s on human civilization’s digital tape archive - invented not to long ago by a daydreaming thinker named Turing, who, when laying out in a a wheat field surrounded by stormy thought clouds dripping with possibilities, was struck by a thunderous bolt which changed the world forever.
+The kindling of curiosity fuels the heat of imagination as rhythmic clicks and clacks spark calculated keystrokes, forming the thinker’s mental pictures and the logical steps that compose them, into bold monotype words and symbols.
 
-Turing logically constructed a simple mathematical machine which could decide true or false when fed a digital tape etched with simple 0’s and 1’s. He then imagined that same digital tape stretched to infinity. The efficiency of the machine’s ability to process those 0’s and 1’s will increase exponentially, but the simple mathematics of 0’s and 1’s remain the same. 
+With bloodshot eyes and a deep exhale, the last thoughtful detail is saved, and shoulders relax. The final logical blueprint etched in 0's and 1's, recorded on human civilization's digital tape archive reloving forever around the world. 
 
-All known knowledge could be could be etched into humanity’s digital archive, copied, and freely accessed. With a simple press of a cheap plastic button, blue electric currents could course through a vast silicon sea of microscopic electronic channels, flowing through sparking transistors projecting a logically expressed blueprint saved as simple 0’s and 1’s, into a virtually constructed pixel pop up - perfectly resembling the thinker’s imagined visual image, formed by billowing flashing thought clouds while sitting on a microfiber log.
+Invented not to long ago by a daydreaming thinker named Turing, who, when laying out in a a wheat field surrounded by stormy thought clouds dripping with possibilities, was struck by a thunderous bolt which changed the world forever.
+
+Turing logically constructed a simple mathematical machine which could decide true or false when fed a digital tape etched with simple 0’s and 1’s. He then imagined that same digital tape stretched to infinity. He predicticed that the efficiency of the machine’s ability to process those 0’s and 1’s will increase exponentially, but the simple mathematics of storing and retrieving 0’s and 1’s remain the same. 
+
+All known knowledge, problems, and ideas could be logically scribed and forever stored and on a medium that copies and distributes information faster than a phone call and is freely avaliable to most people in the world.
+
+With a simple press of a cheap plastic button, blue electric currents could course through a vast silicon sea of microscopic electronic channels, flowing through sparking transistors projecting a logically expressed blueprint, saved as simple 0’s and 1’s, into a virtually constructed pixel pop up - perfectly resembling the thinker’soriginal pictured image that was formed by someone billowing flashing thought clouds while sitting hunched over like the thinking statue.
 
 Modern day alchemy.
 
