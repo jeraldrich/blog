@@ -12,7 +12,7 @@ Charged with restless static electricity, rapid bolts of lightening arced betwee
 
 Mental gears refined fuzzy details into logical structures, tirelessly rearranged until the best fitting solution was visually pictured.
 
-A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and gently pats the goat on the head. Thoughts about how to make a softer wool start steaming up… 
+A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and gently pats the goat on the head. Thoughts about how to make a softer wool start drifting up… 
 
 
 Today, alone in a quiet dark room crouched over a glowing screen, an all knowing artificially intelligent oracle instantly answers any queried question.
