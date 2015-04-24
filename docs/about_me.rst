@@ -31,7 +31,7 @@ Turing constructed a simple mathematical machine which could decide true or fals
 
 He predicted that the efficiency of the machine’s ability to process those 0’s and 1’s will increase exponentially, but the simple mathematics of storing and retrieving 0’s and 1’s remain the same.
 
-All known knowledge, problems, and thoughts, could be logically scribed and forever stored and on a constantly expanding medium that copies and distributes information faster than it could ever be destroyed.
+All knowledge, problems, and thoughts, could be logically scribed and forever stored and on a constantly expanding medium that copies and distributes information faster than it could ever be destroyed.
 
 With a simple press of a cheap plastic button, blue electric currents shoot through a vast silicon sea of microscopic electronic channels, and flow through sparking transistors busy projecting recorded 0’s and 1’s into a perfect virtual reconstruction of the thinker’s visual images, being painted on a pixel canvas.
 
