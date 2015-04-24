@@ -6,11 +6,11 @@ https://github.com/jeraldrich
 
 Generations ago, a thinker was sitting on an old oak log, chin resting on palm, staring intently at the grassy ground a few feet away.
 
-Imaginary steam rose from a shallow pool of knowledge, filled only with spoken word and dusty scrolls, into thoughtful clouds drifting above the thinker’s head.
+Imaginary steam rose from a shallow pool of knowledge, filled only with spoken word and dusty scrolls, into wispy thoughtful clouds drifting above the thinker’s head.
 
 Charged with restless mental electricity, rapid bolts of lightening arced between thoughts and flashed creative possibilities.
 
-Mental gears refined fuzzy details into logical structures to be connected and rearranged with other structures, until the best fit solution visually appears.
+Mental gears refined fuzzy details into logical structures to be connected and rearranged, until the best fit solution visually appears.
 
 A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and gently pats the goat on the head. Thoughts about how to make a softer wool start drifting up… 
 
