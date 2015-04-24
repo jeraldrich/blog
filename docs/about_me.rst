@@ -37,7 +37,7 @@ He accurately predicted that the efficiency of the machine’s ability to proces
 
 All knowledge, problems, and thoughts, could be logically scribed and forever stored and on a constantly expanding medium that copies and distributes information faster than it could ever be destroyed.
 
-With a simple press of a cheap plastic button, blue electric currents shoot through a vast silicon sea of microscopic electronic channels flowing through millions of sparking transistors - busy projecting recorded 0’s and 1’s onto a pixel canvas painted by logically designed blueprints.
+With a simple press of a cheap plastic button, blue electric currents shoot through a vast silicon sea of microscopic electronic channels flowing through millions of sparking transistors - busy projecting recorded 0’s and 1’s onto a pixel canvas painted by logically designed blueprints, the virtually constructed image visually imagined in the thinker's mind.
 
 Modern day Alchemy.
 
