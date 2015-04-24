@@ -29,7 +29,7 @@ He was laying out in a a wheat field daydreaming thoughtful clouds dripping with
 
 Turing constructed a simple mathematical machine which could decide true or false when fed a digital tape etched with simple 0’s and 1’s. He then imagined that same digital tape stretched to infinity.
 
-He predict iced that the efficiency of the machine’s ability to process those 0’s and 1’s will increase exponentially, but the simple mathematics of storing and retrieving 0’s and 1’s remain the same. 
+He predicted that the efficiency of the machine’s ability to process those 0’s and 1’s will increase exponentially, but the simple mathematics of storing and retrieving 0’s and 1’s remain the same.
 
 All known knowledge, problems, and thoughts, could be logically scribed and forever stored and on a constantly expanding medium that copies and distributes information faster than it could ever be destroyed.
 
