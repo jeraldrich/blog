@@ -10,9 +10,9 @@ Imaginary steam rose, from a shallow pool of knowledge filled only with spoken w
 
 Charged with restless static electricity, rapid bolts of lightening arced between thoughts and flashed creative new possibilities.
 
-Mental gears refine fuzzy details into logical structures to be visually arranged until the best fitting solution was pictured. 
+Mental gears refined fuzzy details, into logical structures to be visually arranged until the best fitting solution was pictured. 
 
-A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and pats the goat on the head. Thoughts about how to make a softer wool start steaming up... 
+A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and gently pats the goat on the head. Thoughts about how to make a softer wool start steaming up... 
 
 
 Today, alone in a quiet dark room crouched over a glowing screen, an all knowing artificially intelligent oracle instantly answers any queried question.
