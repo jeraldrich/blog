@@ -21,7 +21,7 @@ An artificially intelligent oracle eagerly awaits any queried question. Searchin
 
 The kindling of knowledge fuels the furnace of imagination.
 
-Rhythmic clicks and clacks spark calculated keystrokes, which forge the thinker’s visual pictures and logical structures, into a blueprint of monotype font characters and mathematical symbols.
+Rhythmic clicks and clacks spark calculated keystrokes, which forge the thinker’s visual picture and supporting logical structures, into a blueprint of monotype font characters and mathematical symbols.
 
 With bloodshot eyes and a deep exhale, the last detail is scribed. The final blueprint ready for mass production, is pressed into simple 0’s and 1’s for computers to read and replay.
 
