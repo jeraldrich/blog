@@ -35,7 +35,7 @@ My goal in life is to create something people will think is pretty neat. Whether
 
 I’m also pretty into Music Theory. I’ll compose orchestral space music about every few months or so. It’s a pretty fun hobby, but getting the ‘next step’ of really improving my sound involves buying virtual instruments that are really expensive. 
 
-If I ever invent a bot that correctly predicts all future sporting bets, I’ll first jump into a swimming pool full of real gold casted dogecoin. Once I recover from the concussion, then compose some film type music.
+If I ever invent a bot that correctly predicts all future sporting bets, I’ll first jump into a swimming pool full of gold cast dogecoin. Once I recover from the concussion, then buy a bunch of fancy stuff and try composing film soundtracks.
 
 If you Ambient Electronic, you may like some of my tracks: https://soundcloud.com/milkysway/sets/adventures-in-hyperspace
 
