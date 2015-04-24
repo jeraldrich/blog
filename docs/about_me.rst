@@ -17,7 +17,7 @@ A goat’s panicked baah brings reality back to focus. A sudden wind rustles dri
 
 Somewhere tonight, a modern thinker is alone in a dark room, haunched over a glowing screen sitting on his lap.
 
-An artificially intelligent oracle eagerly awaits any queried question. Searching through a vast library of knowledge that puts all of the great libraries - combined - to shame, the answer is retrieved and given in less than a second.
+An artificially intelligent oracle eagerly awaits any queried question. Searching through a vast library of knowledge that puts all of the great libraries - combined - to shame, the answer is retrieved and given in microseconds.
 
 The kindling of knowledge fuels the furnace of imagination.
 
