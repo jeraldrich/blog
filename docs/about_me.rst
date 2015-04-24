@@ -23,7 +23,7 @@ The kindling of knowledge fuels the furnace of imagination.
 
 Rhythmic clicks and clacks spark calculated keystrokes that forge the thinker’s visual picture and it's logical structures, into a blueprint of monotyped characters and mathematical symbols.
 
-With bloodshot eyes and a deep exhale, the last detail is scribed. The logical blueprint ready for mass production, is pressed by the computer, into a long series of 0’s and 1’s instructions for other machines to simply read and replay.
+With bloodshot eyes and a deep exhale, the last detail is scribed. The blueprint ready for mass production, is pressed by the computer, into a long series of 0’s and 1’s instructions for other machines to simply read and replay.
 
 This magical medium where all the world’s 0’s and 1’s are stored, was invented by a brilliant thinker named Alan Turing, sometime around WW2.
 
