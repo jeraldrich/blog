@@ -23,7 +23,7 @@ Rhythmic clicks and clacks spark calculated keystrokes describing the thinker’
 
 With bloodshot eyes and a deep exhale, the last thoughtful detail is saved. The final logical blueprint is pressed for mass distribution by the computer converting the thinker’s logical meaning, to simple 0’s and 1’s instructions for machines to follow and replay.
 
-This magical medium that all the world’s 0’s and 1’s are stored on was invented by a brilliant thinker named Alan Turing, not to long ago.
+This magical medium that all the world’s 0’s and 1’s are stored on, was invented by a brilliant thinker named Alan Turing shortly after WW2.
 
 He was laying out in a a wheat field daydreaming thoughtful clouds dripping with possibilities, when a thunderous bolt broke through and flashed an image which changed the world forever.
 
