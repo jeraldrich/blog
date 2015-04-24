@@ -6,22 +6,24 @@ https://github.com/jeraldrich
 
 Generations ago, a thinker was sitting on an old oak log, chin resting on palm, staring intently at the grassy ground a few feet away.
 
-Imaginary steam rose from a shallow pool of knowledge filled with spoken word and dusty scrolls, and into thick thoughtful clouds.
+Imaginary steam rose from a shallow pool of knowledge filled with spoken word and dusty scrolls, and into drifting thoughtful clouds.
 
-Charged with restless static electricity, rapid bolts of lightening arc between thoughts, and flash creative new possibilities.
+Charged with restless static electricity, rapid bolts of lightening arc between thoughts and flash creative new possibilities.
 
-Mental gears refine fuzzy details into logical structures to be visually arranged until the best fitting image is imagined. 
+Mental gears refine fuzzy details into logical structures to be visually arranged until the best fitting solution is pictured. 
 
 A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and pats the goat on the head. Thoughts about how to make a softer wool start steaming up... 
 
 
 Today, alone in a quiet dark room crouched over a glowing screen, an all knowing artificially intelligent oracle instantly answers any question.
 
-The kindling of curiosity, fuels the heat of imagination. Rhythmic clicks and clacks spark calculated keystrokes describing the thinker’s visual pictures and the logical steps that compose them, into a blueprint of monotype words and mathematical symbols.
+The kindling of knowledge, fuels the heat of imagination. Rhythmic clicks and clacks spark calculated keystrokes describing the thinker’s visual pictures and the logical steps that compose them, into a blueprint of monotype words and mathematical symbols.
 
-With bloodshot eyes and a deep exhale, the last thoughtful detail is saved. The final logical blueprint is pressed for mass distribution as the computer converts logical meaning to simple 0's and 1's of machine instructions.
+With bloodshot eyes and a deep exhale, the last thoughtful detail is saved. The final logical blueprint is pressed for mass distribution by the computer converting logical meaning constructed by the thinker, to simple 0's and 1's instructions for machines to follow.
 
-Invented not to long ago by a daydreaming thinker named Turing, who, when laying out in a a wheat field surrounded by thouthful stormy clouds dripping with possibilities, was struck by a thunderous bolt which changed the world forever.
+This magical medium that all the world's 0's and 1's are stored on was invented by a brilliant deep thinker named Alan Turing, not to long ago.
+
+He was laying out in a a wheat field daydreaming thoughtful clouds dripping with possibilities, when a thunderous bolt struck through the clouds and flashed an image which changed the world forever.
 
 Turing constructed a simple mathematical machine which could decide true or false when fed a digital tape etched with simple 0’s and 1’s. He then imagined that same digital tape stretched to infinity.
 
