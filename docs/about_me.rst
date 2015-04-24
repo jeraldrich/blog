@@ -15,7 +15,7 @@ Mental gears refine fuzzy details into logical structures to be visually arrange
 A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and pats the goat on the head. Thoughts about how to make a softer wool start steaming up... 
 
 
-Today, alone in a quiet dark room crouched over a glowing screen, an all knowing artificially intelligent oracle instantly answers any question.
+Today, alone in a quiet dark room crouched over a glowing screen, an all knowing artificially intelligent oracle instantly answers any queried question.
 
 The kindling of knowledge, fuels the heat of imagination. Rhythmic clicks and clacks spark calculated keystrokes describing the thinker’s visual pictures and the logical steps that compose them, into a blueprint of monotype words and mathematical symbols.
 
