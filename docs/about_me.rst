@@ -17,19 +17,19 @@ A goat’s panicked baah brings reality back to focus. A sudden wind rustles dri
 
 Somewhere tonight, a modern thinker is alone in a dark room, haunched over a glowing screen sitting on his lap.
 
-An artificially intelligent oracle eagerly awaits any queried question. Searching through a vast library of knowledge that puts all of the great libraries - combined - to shame, in less than 1 second, the answer is retrieved and given.
+An artificially intelligent oracle eagerly awaits any queried question. Searching through a vast library of knowledge that puts all of the great libraries - combined - to shame, the answer is retrieved and given in less than a second.
 
 The kindling of knowledge fuels the furnace of imagination.
 
-Rhythmic clicks and clacks spark calculated keystrokes, which describe the thinker’s visual pictures and the logical structures that compose them, into a blueprint of monotype font words and mathematical symbols.
+Rhythmic clicks and clacks spark calculated keystrokes, which forge the thinker’s visual pictures and the logical structures that compose them, into a blueprint of monotype font characters and mathematical symbols.
 
-With bloodshot eyes and a deep exhale, the last thoughtful detail is scribed. The final blueprint, ready for mass production, is pressed into simple 0’s and 1’s instructions for computers to read and replay.
+With bloodshot eyes and a deep exhale, the last detail is scribed. The final blueprint ready for mass production, is pressed into simple 0’s and 1’s for computers to read and replay.
 
 This magical medium where all the world’s 0’s and 1’s are stored, was invented by a brilliant thinker named Alan Turing sometime around WW2.
 
 He was laying out in a wheat field daydreaming thoughtful clouds dripping with possibilities, when a thunderous bolt broke through, and an image flashed which changed the world forever.
 
-Turing constructed a simple mathematical machine which could computer anything when fed a digital tape etched with simple 0’s and 1’s determining true or false. 
+Turing constructed a simple machine which could be programmed to compute anything. A digital tape etched with 0’s and 1’s would be fed to it, and as long as the program could fit on the tape, the machine would calculate the results.
 
 He then imagined that same digital tape stretched to infinity.
 
@@ -37,7 +37,9 @@ He accurately predicted that the efficiency of the machine’s ability to proces
 
 All knowledge, problems, and thoughts, could be logically scribed and forever stored and on a constantly expanding medium that copies and distributes information faster than it could ever be destroyed.
 
-With a simple press of a cheap plastic button, blue electric currents shoot through a vast silicon sea of microscopic electronic channels and flow through millions of sparking transistors -  busy projecting recorded 0’s and 1’s into a perfect virtual reconstruction of the thinker’s visual images painted on a pixel canvas.
+With a simple press of a cheap plastic button, blue electric currents shoot through a vast silicon sea of microscopic electronic channels and flow through millions of sparking transistors - busy projecting recorded 0’s and 1’s onto a pixel canvas, painted by logically designed blueprints.
+
+The thinker's imagined visions in his mind, virtually reconstructed with thought alone, on a glowing screen somewhere for someone else to see.
 
 Modern day Alchemy.
 
