@@ -8,7 +8,7 @@ Generations ago, a thinker was sitting on an old oak log, chin resting on palm, 
 
 Imaginary steam rose from a shallow pool of knowledge filled with spoken word and dusty scrolls, and into drifting thoughtful clouds.
 
-Charged with restless static electricity, rapid bolts of lightening arc between thoughts and flash creative new possibilities.
+Charged with restless static electricity, rapid bolts of lightening arced between thoughts, and flashed creative new possibilities.
 
 Mental gears refine fuzzy details into logical structures to be visually arranged until the best fitting solution is pictured. 
 
