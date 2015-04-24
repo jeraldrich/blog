@@ -17,7 +17,9 @@ A goat’s panicked baah brings reality back to focus. A sudden wind rustles dri
 
 Today, alone in a quiet dark room crouched over a glowing screen, an all knowing artificially intelligent oracle instantly answers any queried question.
 
-The kindling of knowledge, fuels the heat of imagination. Rhythmic clicks and clacks spark calculated keystrokes describing the thinker’s visual pictures and the logical steps that compose them, into a blueprint of monotype words and mathematical symbols.
+The kindling of knowledge, fuels the heat of imagination.
+
+Rhythmic clicks and clacks spark calculated keystrokes describing the thinker’s visual pictures and the logical steps that compose them, into a blueprint of monotype words and mathematical symbols.
 
 With bloodshot eyes and a deep exhale, the last thoughtful detail is saved. The final logical blueprint is pressed for mass distribution by the computer converting logical meaning constructed by the thinker, to simple 0's and 1's instructions for machines to follow.
 
