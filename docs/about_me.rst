@@ -12,7 +12,7 @@ Charged with restless mental electricity, rapid bolts of lightening arced betwee
 
 Mental gears refined fuzzy details into logical structures to be connected and rearranged, until the best fit solution visually appears.
 
-A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and gently pats the goat on the head. Thoughts about how to make a softer wool start drifting up… 
+A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and gently pats the goat on the head. Thoughts about how to make a softer wool jacket start drifting up… 
 
 
 Somewhere tonight, a modern thinker is alone in a dark room, haunched over a glowing screen sitting on his lap.
