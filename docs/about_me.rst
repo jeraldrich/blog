@@ -6,7 +6,7 @@ https://github.com/jeraldrich
 
 Generations ago, a thinker was sitting on an old oak log, chin resting on palm, staring intently at the grassy ground a few feet away.
 
-Imaginary steam rose, from a shallow pool of knowledge filled with spoken word and dusty scrolls, into stormy thoughtful clouds drifting above the thinker's head.
+Imaginary steam rose, from a shallow pool of knowledge filled only with spoken word and dusty scrolls, into stormy thoughtful clouds drifting above the thinker's head.
 
 Charged with restless static electricity, rapid bolts of lightening arced between thoughts, and flashed creative new possibilities.
 
