@@ -10,7 +10,7 @@ Imaginary steam rose from a shallow pool of knowledge, filled only with spoken w
 
 Charged with restless mental electricity, rapid bolts of lightening arc between thoughts and flash creative new possibilities.
 
-Mental gears grind fuzzy details into clear logical structures, connected and rearranged, until a visual image is well constructed.
+Mental gears grind fuzzy details into clear logical structures, connected and rearranged, until a visual image is perfectly constructed.
 
 A goat’s panicked baah brings reality back to focus. A sudden wind rustles dried leaves and wisps hazy conclusions away. The thinker let’s out a sigh, stands up, and gently pats the goat on the head. Thoughts about how to make a softer wool jacket start drifting up… 
 
