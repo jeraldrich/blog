@@ -17,7 +17,7 @@ A goat’s panicked baah brings reality back to focus. A sudden wind rustles dri
 
 Today, alone in a quiet dark room crouched over a glowing screen, an all knowing, artificially intelligent oracle, instantly answers any queried question.
 
-The kindling of knowledge fuels the heat of imagination.
+The kindling of knowledge fuels the furnace of imagination.
 
 Rhythmic clicks and clacks spark calculated keystrokes describing the thinker’s visual pictures and the logical steps that compose them, into a blueprint of monotype words and mathematical symbols.
 
