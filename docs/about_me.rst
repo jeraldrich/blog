@@ -1,10 +1,6 @@
 About Me
 ======
-
-work experience
 http://linkedin.com/in/jeraldrich
-
-opensource stuff
 https://github.com/jeraldrich
 
 My goal in life is to create something people will think is pretty neat. 
