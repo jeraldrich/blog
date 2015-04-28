@@ -1,6 +1,7 @@
 About Me
 ======
 
+
 http://linkedin.com/in/jeraldrich
 https://github.com/jeraldrich
 
