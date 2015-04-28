@@ -18,3 +18,4 @@ Contents:
    nonblocking_forloop_javascript
    useful_sysadmin_commands
    vagrant_puppet_aws_rsync
+   stories
