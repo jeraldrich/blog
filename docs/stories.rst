@@ -1,8 +1,6 @@
 Stories
 ======
 
-Where I write stuff
-
 Modern Alchemy
 ------------------
 
