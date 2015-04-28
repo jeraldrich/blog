@@ -1,9 +1,11 @@
 About Me
 ======
-http://linkedin.com/in/jeraldrich
-https://github.com/jeraldrich
 
-I’ve been developing software professionally for 12+ years. I'm lucky in that I found what I loved to do early in life, and enjoy what I do - both creatively as a hobby, and balancing perfectionism with deadlines by delivering practical, well-engineered solutions that solve real world business problems. 
+work experience
+http://linkedin.com/in/jeraldrich
+
+opensource stuff
+https://github.com/jeraldrich
 
 My goal in life is to create something people will think is pretty neat. 
 
