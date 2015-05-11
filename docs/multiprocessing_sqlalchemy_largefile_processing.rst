@@ -11,7 +11,7 @@ I am using python multiprocessing to parse the large file in one process, and fi
 
 I used the consumer producer pattern because then I could easily share one queue  between all of the different processes. One producer fills the queue with each parsed line from the log file, and a consumer is spawned per CPU core which consumes each line in the queue.
 
-A mysql session pool is created and shared between every consumer process (SQLAlchemy).
+A mysql session pool is created and shared between every consumer process (SQLAlchemy). When there are 500+ line items in the consumer queue, mysql inserts will be automatically batched.
 
 Here's the full source: https://github.com/jeraldrich/MSLP
 
@@ -42,6 +42,51 @@ Here's what the SQLAlchemy model looks like::
                     t=self._type,
                     data=self.data,
                 )
+
+Here's what I use to filter each json line and create a new SQLAlchemy object::
+    import json
+    import logging
+    from datetime import datetime
+
+    from consumers.models import ChatMessage
+
+
+    logger = logging.getLogger('chat_message_parser')
+
+    class ChatMessageParser():
+
+        def parse(self, data):
+            """
+            parse each line in the log and populate log data with matched pattern
+            """
+            json_message = json.loads(data)
+            # logger.info('json data is {0}'.format(json_message['data']))
+            chat_message = None
+            if json_message['type'] == 'message':
+                chat_message = ChatMessage(
+                    id=json_message['id'],
+                    _from=json_message['from'],
+                    _type=json_message['type'],
+                    site_id=json_message['site_id'],
+                    data=json_message['data']['message'],
+                    timestamp=json_message['timestamp'],
+                )
+            elif json_message['type'] == 'status':
+                chat_message = ChatMessage(
+                    id=json_message['id'],
+                    _from=json_message['from'],
+                    _type=json_message['type'],
+                    site_id=json_message['site_id'],
+                    data=json_message['data']['status'],
+                    timestamp=json_message['timestamp'],
+                )
+            else:
+                logger.error('Invalid json status detected'.format(chat_message))
+                return None
+            # convert timestamp str to datetime
+            chat_message.timestamp = datetime.fromtimestamp(int(json_message['timestamp']))
+
+            return chat_message
 
 
 For my producer, a large file is split up into chunks, and then each chunk yields a line into the consumer queue::
