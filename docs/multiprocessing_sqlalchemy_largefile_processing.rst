@@ -17,6 +17,7 @@ In this example, I have a simple table called chat_messages which is populated b
 
 
 Here's what the SQLAlchemy model looks like::
+
         from sqlalchemy.ext.declarative import declarative_base
         from sqlalchemy import Column, String, TIMESTAMP
 
@@ -45,6 +46,7 @@ Here's what the SQLAlchemy model looks like::
 
 
 For my producer, a large file is split up into chunks, and then each chunk yields a line into the consumer queue::
+
         from itertools import chain, islice
         import os
         import time
@@ -99,6 +101,7 @@ Instead of splitting a large file, you could probably iterate over chunks and us
 
 
 My consumer / producer processes are managed by using a multiprocessing manager queue which is wrapped in a class that spawns and joins the producer / consumer processes::
+
         from multiprocessing import Process, cpu_count, Manager
         from os import sys
         import time
