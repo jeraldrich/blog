@@ -244,7 +244,8 @@ My consumer / producer processes are managed by using a multiprocessing manager 
             except Exception, e:
                 raise e
 
-When using python multiprocessing, you will want to use the multiprocessing module to create all queues and threads. Otherwise, you may get a deadlockwhen two seperate processes try to read from the same queue at once.
+When using python multiprocessing, you will want to use the multiprocessing module to create all queues and threads. Otherwise, you may get a deadlock when two seperate processes try to read from the same queue at once.
 
+Piece of cake.
 By seperating the producer and consumers, the main flow of the program becomes very simple to manage. You can immediatly tell from the code what is going on, and add other SQLAlchemy models as needed.
 
