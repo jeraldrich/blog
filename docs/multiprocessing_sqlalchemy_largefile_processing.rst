@@ -15,6 +15,111 @@ A mysql session pool is created and shared between every consumer process (SQLAl
 
 Here's the full source: https://github.com/jeraldrich/MSLP
 
+My consumer / producer processes are managed by using a multiprocessing manager queue which is wrapped in a class that spawns and joins the producer / consumer processes::
+
+        from multiprocessing import Process, cpu_count, Manager
+        from os import sys
+        import time
+        import logging
+        from Queue import Empty
+
+        from sqlalchemy.orm import scoped_session, sessionmaker
+        from sqlalchemy import asc
+
+        from producers import LargeFileParser, ChatMessageParser
+        from consumers import create_mysql_pool, batch_insert
+        from consumers.models import ChatMessage
+        from settings import CHAT_LOG
+
+
+        logger = logging.getLogger('chat_message_parser')
+        logger.setLevel(logging.DEBUG)
+        logging.basicConfig()
+        stream_handler = logging.StreamHandler()
+        stream_handler.setLevel(logging.INFO)
+        logger.addHandler(stream_handler)
+
+
+        def producer_queue(queue, parser):
+            for data in LargeFileParser(CHAT_LOG):
+                parsed_data = parser.parse(data)
+                queue.put(parsed_data)
+            queue.put('STOP')
+
+
+        def consumer_queue(proc_id, queue):
+
+            # shared pooled session per consumer proc
+            mysql_pool = create_mysql_pool()
+            session_factory = sessionmaker(mysql_pool)
+            Session = scoped_session(session_factory)
+
+            while True:
+                try:
+                    time.sleep(0.01)
+                    consumer_data = queue.get(proc_id, 1)
+                    if consumer_data == 'STOP':
+                        logger.info('STOP received')
+                        # put stop back in queue for other consumers
+                        queue.put('STOP')
+                        break
+                    consumer_data_batch = []
+                    consumer_data_batch.append(consumer_data)
+                    if queue.qsize() > 500:
+                        for i in xrange(50):
+                            consumer_data = queue.get(proc_id, 1)
+                            consumer_data_batch.append(consumer_data)
+                    session = Session()
+                    batch_insert(session, consumer_data_batch)
+                    # logger.info(consumer_data)
+                except Empty:
+                    pass
+
+
+        class ParserManager(object):
+
+            def __init__(self):
+                self.manager = Manager()
+                self.queue = self.manager.Queue()
+                self.NUMBER_OF_PROCESSES = cpu_count()
+                self.parser = ChatMessageParser()
+
+            def start(self):
+                self.producer = Process(
+                    target=producer_queue,
+                    args=(self.queue, self.parser)
+                )
+                self.producer.start()
+
+                self.consumers = [
+                    Process(target=consumer_queue, args=(i, self.queue,))
+                    for i in xrange(self.NUMBER_OF_PROCESSES)
+                ]
+                for consumer in self.consumers:
+                    consumer.start()
+
+            def join(self):
+                self.producer.join()
+                for consumer in self.consumers:
+                    consumer.join()
+
+        if __name__ == '__main__':
+            try:
+                manager = ParserManager()
+                manager.start()
+                manager.join()
+            except (KeyboardInterrupt, SystemExit):
+                logger.info('interrupt signal received')
+                sys.exit(1)
+            except Exception, e:
+                raise e
+
+When using python multiprocessing, you will want to use the multiprocessing module to create all queues and threads. Otherwise, you may get a deadlock when two seperate processes try to read from the same queue at once.
+
+By seperating the producer and consumers, the main flow of the program becomes very simple to manage. You can immediatly tell from the code what is going on, and add other SQLAlchemy models as needed.
+
+An important thing to note: A mysql session pool is created per consumer process. You will want to do this with SQLAlchemy, because global session pools cannot be shared among multiple processes.
+
 Here's what the SQLAlchemy model looks like::
 
         from sqlalchemy.ext.declarative import declarative_base
@@ -145,105 +250,3 @@ For my producer, a large file is split up into chunks, and then each chunk yield
 Instead of splitting a large file, you could probably iterate over chunks and use fileseek, but splitting the file up allows me to use multiple consumers if disk IO is not a bottleneck.
 
 
-My consumer / producer processes are managed by using a multiprocessing manager queue which is wrapped in a class that spawns and joins the producer / consumer processes::
-
-        from multiprocessing import Process, cpu_count, Manager
-        from os import sys
-        import time
-        import logging
-        from Queue import Empty
-
-        from sqlalchemy.orm import scoped_session, sessionmaker
-        from sqlalchemy import asc
-
-        from producers import LargeFileParser, ChatMessageParser
-        from consumers import create_mysql_pool, batch_insert
-        from consumers.models import ChatMessage
-        from settings import CHAT_LOG
-
-
-        logger = logging.getLogger('chat_message_parser')
-        logger.setLevel(logging.DEBUG)
-        logging.basicConfig()
-        stream_handler = logging.StreamHandler()
-        stream_handler.setLevel(logging.INFO)
-        logger.addHandler(stream_handler)
-
-
-        def producer_queue(queue, parser):
-            for data in LargeFileParser(CHAT_LOG):
-                parsed_data = parser.parse(data)
-                queue.put(parsed_data)
-            queue.put('STOP')
-
-
-        def consumer_queue(proc_id, queue):
-
-            # shared pooled session per consumer proc
-            mysql_pool = create_mysql_pool()
-            session_factory = sessionmaker(mysql_pool)
-            Session = scoped_session(session_factory)
-
-            while True:
-                try:
-                    time.sleep(0.01)
-                    consumer_data = queue.get(proc_id, 1)
-                    if consumer_data == 'STOP':
-                        logger.info('STOP received')
-                        # put stop back in queue for other consumers
-                        queue.put('STOP')
-                        break
-                    consumer_data_batch = []
-                    consumer_data_batch.append(consumer_data)
-                    if queue.qsize() > 500:
-                        for i in xrange(50):
-                            consumer_data = queue.get(proc_id, 1)
-                            consumer_data_batch.append(consumer_data)
-                    session = Session()
-                    batch_insert(session, consumer_data_batch)
-                    # logger.info(consumer_data)
-                except Empty:
-                    pass
-
-
-        class ParserManager(object):
-
-            def __init__(self):
-                self.manager = Manager()
-                self.queue = self.manager.Queue()
-                self.NUMBER_OF_PROCESSES = cpu_count()
-                self.parser = ChatMessageParser()
-
-            def start(self):
-                self.producer = Process(
-                    target=producer_queue,
-                    args=(self.queue, self.parser)
-                )
-                self.producer.start()
-
-                self.consumers = [
-                    Process(target=consumer_queue, args=(i, self.queue,))
-                    for i in xrange(self.NUMBER_OF_PROCESSES)
-                ]
-                for consumer in self.consumers:
-                    consumer.start()
-
-            def join(self):
-                self.producer.join()
-                for consumer in self.consumers:
-                    consumer.join()
-
-        if __name__ == '__main__':
-            try:
-                manager = ParserManager()
-                manager.start()
-                manager.join()
-            except (KeyboardInterrupt, SystemExit):
-                logger.info('interrupt signal received')
-                sys.exit(1)
-            except Exception, e:
-                raise e
-
-When using python multiprocessing, you will want to use the multiprocessing module to create all queues and threads. Otherwise, you may get a deadlock when two seperate processes try to read from the same queue at once.
-
-By seperating the producer and consumers, the main flow of the program becomes very simple to manage. You can immediatly tell from the code what is going on, and add other SQLAlchemy models as needed.
