@@ -13,6 +13,7 @@ Contents:
 
    about_me
    contact
+   multiprocessing_sqlalchemy_largefile_processing
    python_go_future
    django_filefield_csv_validation
    nonblocking_forloop_javascript
