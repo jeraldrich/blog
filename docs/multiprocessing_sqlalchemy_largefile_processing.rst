@@ -7,7 +7,7 @@ However, when processing large files (1GB+), one cpu core will spike at 100% and
 
 In this example, I have a simple table called chat_messages which is populated by parsing a large json file of JSON strings. The main point of this is to show how easy it is to use multiprocessing.
 
-I am using python multiprocessing to parse the large file in one process, and filter/insert the data in every other CPU avaliable. This dropped CPU usage from 100% on one core, to 7-12% per core. When insering 10+ million rows into a mysql database, total time of using twisted / threaded vs multiprocessing dropped from 10+ minutes, to 2 minutes.
+I am using python multiprocessing to parse the large file in one process, and filter/insert the data in every other CPU avaliable. This dropped CPU usage from 100% on one core, to 7-12% per core. When inserting 10+ million rows into a mysql database, total time of using twisted / threaded vs multiprocessing dropped from 10+ minutes, to 2 minutes.
 
 I used the consumer producer pattern because then I could easily share one queue  between all of the different processes. One producer fills the queue with each parsed line from the log file, and a consumer is spawned per CPU core which consumes each line in the queue.
 
