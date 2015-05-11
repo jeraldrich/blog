@@ -11,11 +11,9 @@ I am using python multiprocessing to parse the large file in one process, and fi
 
 I used the consumer producer pattern because then I could easily share one queue  between all of the different processes. One producer fills the queue with each parsed line from the log file, and a consumer is spawned per CPU core which consumes each line in the queue.
 
+A mysql session pool is created and shared between every consumer process (SQLAlchemy).
+
 Here's the full source: https://github.com/jeraldrich/MSLP
-
-Another advantage of using the consumer producer pattern, is that SQLAlchemy models / data insertion can be easily seperated from the consumer code.
-
-
 
 Here's what the SQLAlchemy model looks like::
 
