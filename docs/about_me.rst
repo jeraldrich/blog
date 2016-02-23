@@ -10,4 +10,4 @@ If you are into electronic ambient music, I spent a year teaching myself music t
 
 Here are my tracks: https://soundcloud.com/milkysway
 
-If you like them or have suggestions, send me an email and let's geek out. 
+If you have suggestions or want ot learn, send me an email and let's geek out. 
