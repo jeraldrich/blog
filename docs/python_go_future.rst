@@ -37,19 +37,21 @@ Like a simple command, if your software library, method, or program just does 'o
 
 Go is a strongly type language. This means that variables in Go must be declared as to what type they are. In an interpreted dynamic language like Python, the type is assumed to be the type of the first value you assigned to it, so you do not repeat yourself, and can crank out a feature without to much plumbing.
 
-At first, it seems the extra step of strongly typing things is unnecessary and annoying, but eventually at a certain project scale, if you don't use strong typing, there’s probably going to be some code somewhere at a random place that checks type and casts it into something else or branches off if a conditional is met. 
+At first, it seems the extra step of strongly typing things is unnecessary and annoying. However, once a project grows to a certain size, there’s probably going to be some code somewhere at a random place that checks type and casts it into something else, or gnarly conditional branches in the code based off of handling different data structure types.
 
-Describing the structures that your method accepts as input and the type of result it will always return, forces you to think visually how all the individual structures of your program fit together - like lego blocks with clearly defined edges and sizes that when used properly together, click and hold firmly in place. 
+Describing the structures that your method accepts as input and the type of result it will always return, forces you to think visually how all the individual structures of your program fit together - like lego blocks with clearly defined edges that click and hold firmly in place. 
 
-Think of python as the malleable, soft clay that you mold your idea with. You work out the final form from adjustment after adjustment. Your business logic is defined. The edge cases found. You can then quickly see if your finished product will have outside approval and fulfill a proven need.
+Visualize the data structure that should be returned for a new method first, and work backwards from there to figure out the implementation details.
 
-If it’s discovered that the tool needs to be more durable, then use Go to cast your soft figurine, into a granite statue that can withstand the test of time.
+Things like auto multi core distribution for threads which are many times more memory efficient and performant than python threads, true concurrency, near C like performance, and passing variables by pointers rather than by copying the values result in exponential performance gains once you hit a certain scale.
 
-Things like auto multi core distribution for threads which are many times more memory efficient and performant than python threads, true concurrency, near C like performance, and passing variables by pointers rather than by copying the values, financially save exponential amounts as demand for your service grows.
+While a few milliseconds may seem insiginficate, at 30,000 writes / requests to a database or service per second, those few milliseconds add up.
 
 A real world example: http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html
 
-Being able to compile your program and deploy it by simply copying the binary over and running it, is a huge relief compared to the virtual / system environment jungle of a sizable multi project dynamically interpreted application.
+If you are a python / ruby / node web dev, you are familiar with the clown fiesta that is maintaining large amounts of dependencies between different environments.
+
+In Go, you simply type in go [program-name-here] and a binary is compiled for you to run on any operating system. The deployment method is to simply to copy / download the binary and run.
 
 While the languages themselves might be different, both follow a similar design philosophy of simplicity and practicality. The cross over between the two feels natural. The mental cost switching context between them, cheap.
 
