@@ -45,7 +45,7 @@ Visualize the data structure that should be returned for a new method first, and
 
 Things like auto multi core distribution for threads which are many times more memory efficient and performant than python threads, true concurrency, near C like performance, and passing variables by pointers rather than by copying the values result in exponential performance gains once you hit a certain scale.
 
-While a few milliseconds may seem insiginficate, at 30,000 writes / requests to a database or service per second, those few milliseconds add up.
+While a few milliseconds may seem insiginficate, at hundreds of thousands of writes / requests to a database or service per second, those few milliseconds add up.
 
 A real world example: http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html
 
