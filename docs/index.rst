@@ -16,7 +16,5 @@ Contents:
    multiprocessing_sqlalchemy_largefile_processing
    python_go_future
    django_filefield_csv_validation
-   nonblocking_forloop_javascript
    useful_sysadmin_commands
    vagrant_puppet_aws_rsync
-   stories
