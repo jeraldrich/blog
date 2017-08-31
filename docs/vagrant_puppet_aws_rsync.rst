@@ -7,9 +7,9 @@ you may run into an error if you are sharing folders. To share folders on AWS, y
 
 If rsync is not installed on your base AMI, you may run into an issue where you are unable to share your folders and your box will not provision.
 
-Before initialiting puppet, you will want to use a script to install rsync
+Before initializing puppet, you will want to use a script to install rsync.
 
-Here is my vagrant file + custom init script to resolve this issue
+Here is my vagrant file + custom init script to resolve this issue:
 
 .. code-block:: ruby
 
