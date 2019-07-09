@@ -40,6 +40,7 @@ Troubleshooting Network Traffic
 ------------------
 List open ports::
     netstat -tulpn
+    nmap -v -sU localhost
 
 Capture http headers with tcpdump::
 
