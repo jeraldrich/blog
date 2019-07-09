@@ -38,6 +38,8 @@ Forward custom port (local requests to MySQL in this example) to a remote host::
 
 Troubleshooting Network Traffic
 ------------------
+List open ports::
+    netstat -tulpn
 
 Capture http headers with tcpdump::
 
