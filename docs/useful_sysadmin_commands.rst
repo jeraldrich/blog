@@ -57,7 +57,8 @@ Capture all packets except those that match packet type filter::
 
     tcpdump -i eth0 not arp and not rarp
 
-
+Capture UDP packets::
+    tcpdump -i eth0 udp
 
 Tar Commands
 ------------------
@@ -69,5 +70,3 @@ Tar a directory and encrypt it in one line::
 To decrypt::
 
     dd if=encrypted_example_dir | openssl des3 -d -k secretkey | tar xvzf - 
-
-
