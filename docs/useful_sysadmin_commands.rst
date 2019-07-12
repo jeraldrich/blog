@@ -64,6 +64,9 @@ Capture UDP packets::
 Show list of banned ips::
     sudo iptables -L -n | awk '$1=="REJECT" && $4!="0.0.0.0/0" {print $4}'
 
+Show list of all banned ips with jails::
+    sh -c "fail2ban-client status | sed -n 's/,//g;s/.*Jail list://p' | xargs -n1 fail2ban-client status"
+
 Tar Commands
 ------------------
 
