@@ -61,6 +61,9 @@ Capture all packets except those that match packet type filter::
 Capture UDP packets::
     tcpdump -i eth0 udp
 
+Show list of banned ips::
+    sudo iptables -L -n | awk '$1=="REJECT" && $4!="0.0.0.0/0" {print $4}'
+
 Tar Commands
 ------------------
 
