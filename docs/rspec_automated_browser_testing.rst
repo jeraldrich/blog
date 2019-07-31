@@ -5,7 +5,7 @@ If a user can have many different roles and permissions, you'll want to test wha
 You can write request specs to test api responses, but this test your view logic.
 
 For testing user flow conditions, I like to simulate what the user will see by driving a chrome browser for each condition.
-In this example, I'll be using rspec and ruby on rails.
+In this example, I will be using rspec and ruby on rails.
 
 First, let's add these gems to your gemfile::
         gem 'rspec-rails'
