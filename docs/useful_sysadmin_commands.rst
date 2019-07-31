@@ -39,6 +39,7 @@ Forward custom port (local requests to MySQL in this example) to a remote host::
 Troubleshooting Network Traffic
 ------------------
 List open ports::
+
     netstat -tulpn
     nmap -v -sU localhost
 
