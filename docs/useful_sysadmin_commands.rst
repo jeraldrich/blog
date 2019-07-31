@@ -1,10 +1,10 @@
 Useful Sysadmin Commands
-======
+========================
 
 A collection of helpful Linux / Freebsd commands I find helpful for day to day use
 
 Finding files and executing actions on them
-------------------
+-------------------------------------------
 
 Find and delete files with filename length of 5::
 
@@ -19,11 +19,11 @@ List all file and directory disk space usage sorted by 10 largest directories::
     sudo du -cks * | sort -rn | head
 
 Listing processes and process system usage
-------------------
+------------------------------------------
 
 List memory usage by category of process::
 
-    ps aux | awk '{print $4"\t"$11}' | sort | uniq -c | awk '{print $2" "$1" "$3}' | sort -nr 
+    ps aux | awk '{print $4"\t"$11}' | sort | uniq -c | awk '{print $2" "$1" "$3}' | sort -nr
 
 List memcache objects::
 
@@ -37,7 +37,7 @@ Forward custom port (local requests to MySQL in this example) to a remote host::
     ssh -fND 3306 username@bestwebsiteintheworld.com
 
 Troubleshooting Network Traffic
-------------------
+-------------------------------
 List open ports::
 
     netstat -tulpn
@@ -80,4 +80,4 @@ Tar a directory and encrypt it in one line::
 
 To decrypt::
 
-    dd if=encrypted_example_dir | openssl des3 -d -k secretkey | tar xvzf - 
+    dd if=encrypted_example_dir | openssl des3 -d -k secretkey | tar xvzf -

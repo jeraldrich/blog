@@ -1,5 +1,5 @@
 Headless Browser Testing with Chrome and Rspec
-=======
+==============================================
 
 If a user can have many different roles and permissions, you'll want to test what they can view for each page.
 You can write request specs to test api responses, but this test your view logic.
@@ -15,9 +15,11 @@ First, let's add these gems to your gemfile::
 
 Now create a new directory at spec/support. I like keep all of my test configuration and helper methods here.
 Add this line to your rails_helper file to load all of your test support files::
+
         Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
 Now we will want to configure capybara to work with chrome. Create a new file in spec/support called chrome_setup.rb with this code::
+
         Capybara.register_driver :selenium_chrome do |app|
           # Set chrome download dir and auto confirm all "are you sure you want to download" to test downloading docs and pdfs.
           chrome_prefs = {
@@ -104,8 +106,8 @@ Now add this to chrome_setup.rb::
         path[':session_id'] = bridge.session_id
         bridge.http.call(:post, path, cmd: 'Page.setDownloadBehavior',
           params: {
-           behavior: 'allow',
-           downloadPath: DownloadHelpers::PATH.to_s
+            behavior: 'allow',
+            downloadPath: DownloadHelpers::PATH.to_s
           }
         )
 
