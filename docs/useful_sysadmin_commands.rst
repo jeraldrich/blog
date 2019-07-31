@@ -30,7 +30,7 @@ List memcache objects::
     ngrep -W none -T -d any "^(get|set|delete|END|STORED|VALUE|DELETED)" port 11211 | awk '{print $1 " " $2}'
 
 SSH Commands
-------------------
+------------
 
 Forward custom port (local requests to MySQL in this example) to a remote host::
 
@@ -72,7 +72,7 @@ Show list of all banned ips with jails::
     sh -c "fail2ban-client status | sed -n 's/,//g;s/.*Jail list://p' | xargs -n1 fail2ban-client status"
 
 Tar Commands
-------------------
+------------
 
 Tar a directory and encrypt it in one line::
 
