@@ -8,8 +8,6 @@ https://docs.djangoproject.com/en/dev/ref/validators/
 
 A validator is a callback function for a model field that will either return True or return a ValidationError exception message which will then be displayed as an error for that field in Django admin.
 
-Pretty handy.
-
 For this simple example, I have a csv file that needs to be checked for valid filetype, empty cell values on required columns, and missing headers.
 
 The HEADERS map is designed to be referenced by a separate import process not included in this example, but may give you an idea on how to implement additional sanitization checking and database actions.
