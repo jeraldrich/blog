@@ -61,6 +61,7 @@ This enables running chrome in headless mode. Headless mode just means driving c
 This will greatly increase performance and memory usage keeping your CI builds snappy.
 
 If you also want to test file downloads, add a new file in spec/support called downloads.rb with this code::
+
         module DownloadHelpers
           TIMEOUT = 10
           PATH    = Rails.root.join('tmp/downloads')
@@ -100,6 +101,7 @@ If you also want to test file downloads, add a new file in spec/support called d
         end
 
 Now add this to chrome_setup.rb::
+
         # Allow file downloads to work in chromedriver headless mode.
         bridge = driver.browser.send(:bridge)
         path = '/session/:session_id/chromium/send_command'
@@ -112,6 +114,7 @@ Now add this to chrome_setup.rb::
         )
 
 You're ready to write your first feature test. Here is a very basic example::
+
         feature 'Viewing Project', js: true do
           scenario 'project owner can view project' do
             login_as project_owner
@@ -125,6 +128,7 @@ You're ready to write your first feature test. Here is a very basic example::
         end
 
 Now run this command::
+
         HEADLESS=false rspec spec
 
 A chrome browser will launch and be driven by your test.
