@@ -8,6 +8,7 @@ For testing user flow conditions, I like to simulate what the user will see by d
 In this example, I will be using rspec and ruby on rails.
 
 First, let's add these gems to your gemfile::
+
         gem 'rspec-rails'
         gem 'capybara'
         gem 'capybara-email'
