@@ -2,9 +2,9 @@ Headless Browser Testing with Chrome and Rspec
 ==============================================
 
 If a user can have many different roles and permissions, you'll want to test what they can view for each page.
-You can write request specs to test api responses, but this test your view logic.
+You can write request specs to test api responses, but this does not test your view logic.
 
-For testing user flow conditions, I like to simulate what the user will see by driving a chrome browser for each condition.
+For testing user flows, I like to simulate what the user will see by driving a chrome browser.
 In this example, I will be using rspec and ruby on rails.
 
 First, let's add these gems to your gemfile::
