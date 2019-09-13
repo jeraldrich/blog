@@ -13,6 +13,7 @@ Contents:
 
    about_me
    contact
+   alchemy
    rspec_automated_browser_testing
    multiprocessing_sqlalchemy_largefile_processing
    python_go_future
